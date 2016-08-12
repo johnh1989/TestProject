@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>refit</id>
+    <version>2.4.1</version>
+    <title>Refit</title>
+    <authors>Paul Betts, Refit contributors</authors>
+    <owners>Paul Betts, Refit contributors</owners>
+    <licenseUrl>https://github.com/xpaulbettsx/refit/blob/master/COPYING</licenseUrl>
+    <projectUrl>https://github.com/xpaulbettsx/refit</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>The automatic type-safe REST library for Xamarin and .NET</description>
+    <summary>The automatic type-safe REST library for Xamarin and .NET</summary>
+    <dependencies>
+      <group>
+        <dependency id="Newtonsoft.Json" version="6.0.5" />
+      </group>
+      <group targetFramework="WindowsPhone8.0">
+        <dependency id="Microsoft.Net.Http" version="2.2.28" />
+        <dependency id="Newtonsoft.Json" version="6.0.5" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Net.Http" targetFramework=".NETPortable0.0-net45+monoandroid+xamarin.ios10" />
+    </frameworkAssemblies>
+  </metadata>
+</package>
